@@ -8,8 +8,8 @@ Kubernetes, Terraform, AWS and DevOps tool
 | Week | Topic | Technologies | Status |
 |------|-------|-------------|--------|
 | Week 1 | Docker optimisation | Docker, Alpine, Trivy | ✅ Complete |
-| Week 2 | AWS setup + Terraform basics | AWS, Terraform | 🔄 In progress |
-| Week 3 | Terraform VPC + remote state | Terraform, AWS VPC | ⬜ Upcoming |
+| Week 2 | AWS setup + Terraform basics | AWS, Terraform |  ✅ Complete |
+| Week 3 | Terraform VPC + remote state | Terraform, AWS VPC | 🔄 In Progress |
 | Week 4 | Terraform modules + EKS | Terraform, EKS | ⬜ Upcoming |
 | Week 5 | Kubernetes fundamentals | Kubernetes, EKS | ⬜ Upcoming |
 | Week 6 | Helm + IRSA | Helm, AWS IAM | ⬜ Upcoming |
