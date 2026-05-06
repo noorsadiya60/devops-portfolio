@@ -1,6 +1,6 @@
 # Week 3 — Terraform Language Foundations
 
-**Author:** Noor Sadiya | **Phase:** 2 | **Dates:** May 6–12, 2025
+**Author:** Noor Sadiya | **Phase:** 2 
 
 ---
 
@@ -15,7 +15,7 @@ Provisioned an EC2 t3.micro + Security Group on AWS (`ap-south-1`) using Terrafo
 ## Project Structure
 
 ```
-terraform-foundations/
+week-3/
 ├── main.tf           # Provider + EC2 + Security Group
 ├── variables.tf      # instance_type, region, env
 ├── outputs.tf        # ec2_public_ip
@@ -42,5 +42,3 @@ terraform-foundations/
 - [x] Remote state verified in S3 with DynamoDB locking configured
 - [x] State migrated from local to S3 via `terraform init -migrate-state`
 - [x] Drift introduced manually, detected by `plan`, reconciled by `apply`
-- [x] Every line written from scratch — no copy-paste from course
-- [x] Can explain state, provider blocks, plan output, and drift without notes
