@@ -1,0 +1,17 @@
+You said: #Terraform
+#Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.tfvars
+crash.log
+
+#AWS
+.aws/
+*.pem
+*.key
+
+#General
+.DS_Store
+*.log
+
