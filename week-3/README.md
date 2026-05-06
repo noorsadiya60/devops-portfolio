@@ -9,10 +9,3 @@ What I Built
 5. Configured S3 remote state with DynamoDB locking for team-safe state management
 6. Migrated local state to S3 using terraform init -migrate-state
 7. Deliberately introduced drift by manually deleting EC2 from console — observed Terraform detect and reconcile it
-
-Project Structure
-week-3/
-├── main.tf          # EC2 + Security Group resources
-├── variables.tf     # instance_type, region, env
-├── outputs.tf       # public IP output
-└── backend.tf       # S3 remote state + DynamoDB locking
