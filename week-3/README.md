@@ -1,5 +1,4 @@
 Week 3 — Terraform Language Foundations
-Phase: 2 | Course: Terraform-EKS Modules 3–5
 What I Built
 
 1. Wrote main.tf, variables.tf, outputs.tf, backend.tf from scratch
