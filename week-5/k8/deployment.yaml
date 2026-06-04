@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: my-app
+  template:
+    metadata: 
+      name: my_app
+      labels:
+        app: my-app
+    spec:
+      containers:
+        - name: nodejs
+          image: 991727098679.dkr.ecr.ap-south-1.amazonaws.com/myapp:v1
+          ports:
+            - containerPort: 3000
+          env:
+            - name: APP_ENV
+              valueFrom:
+                configMapKeyRef:
+                  name: app-environ
+                  key: APP_ENV
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: app-secret
+                  key: DB_PASSWORD
+
+
