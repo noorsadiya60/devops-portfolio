@@ -7,9 +7,9 @@ resource "aws_vpc" "main"{
         Name = "${var.env}-vpc"
     }
 
-    lifecycle {
-      prevent_destroy = true
-    }
+    #lifecycle {
+    #  prevent_destroy = true
+    #}
 }
 
 resource "aws_subnet" "public" {
