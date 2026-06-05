@@ -11,8 +11,8 @@ Kubernetes, Terraform, AWS and DevOps tool
 | Week 2 | AWS setup + Terraform basics | AWS, Terraform |  ✅ Complete |
 | Week 3 | Terraform VPC + remote state | Terraform, AWS VPC | ✅ Complete |
 | Week 4 | Terraform modules + EKS | Terraform, EKS |  ✅ Complete |
-| Week 5 | Kubernetes fundamentals | Kubernetes, EKS | 🔄 In Progress |
-| Week 6 | Helm + IRSA | Helm, AWS IAM | ⬜ Upcoming |
+| Week 5 | Kubernetes fundamentals | Kubernetes, EKS | ✅ Complete |
+| Week 6 | Helm + IRSA | Helm, AWS IAM |  🔄 In Progress|
 | Week 7 | Autoscaling | HPA, Karpenter | ⬜ Upcoming |
 | Week 8 | Observability | Prometheus, Grafana | ⬜ Upcoming |
 | Week 9 | CI/CD + Ansible | GitHub Actions, Ansible | ⬜Upcoming |
