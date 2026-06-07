@@ -12,7 +12,7 @@ provider "aws" {
   profile = "default"
 }
 module "vpc" {
-  source                = "../week-4/modules/vpc"
+  source                = "../terraform-vpc-modules/modules/vpc"
   vpc_cidr              = var.vpc_cidr
   public_subnet_cidr    = var.public_subnet_cidr
   private_subnet_cidr_1 = var.private_subnet_cidr_1
