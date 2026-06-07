@@ -1,22 +1,23 @@
 # Noor Sadiya — DevOps/SRE Portfolio
 
-8+ years DevOps experience. Currently building hands-on depth in 
-Kubernetes, Terraform, AWS and DevOps tool
+8+ years DevOps experience. Hands-on projects in 
+Kubernetes, Terraform, AWS EKS, and Observability.
 
 ## Projects
 
-| Week | Topic | Technologies | Status |
-|------|-------|-------------|--------|
-| Week 1 | Docker optimisation | Docker, Alpine, Trivy | ✅ Complete |
-| Week 2 | AWS setup + Terraform basics | AWS, Terraform |  ✅ Complete |
-| Week 3 | Terraform VPC + remote state | Terraform, AWS VPC | ✅ Complete |
-| Week 4 | Terraform modules + EKS | Terraform, EKS |  ✅ Complete |
-| Week 5 | Kubernetes fundamentals | Kubernetes, EKS | ✅ Complete |
-| Week 6 | Helm + IRSA | Helm, AWS IAM |  🔄 In Progress|
-| Week 7 | Autoscaling | HPA, Karpenter | ⬜ Upcoming |
-| Week 8 | Observability | Prometheus, Grafana | ⬜ Upcoming |
-| Week 9 | CI/CD + Ansible | GitHub Actions, Ansible | ⬜Upcoming |
+| Project | Description | Tech Stack | Status |
+|---------|-------------|------------|--------|
+| [docker-node-optimisation](./docker-node-optimisation) | Optimised Node.js Docker image from 1.57GB to 194MB with security scanning | Docker, Alpine, Trivy | ✅ Complete |
+| [aws-infrastructure-setup](./aws-infrastructure-setup) | AWS account setup, IAM, ECR, CLI tooling | AWS, Terraform, CLI | ✅ Complete |
+| [terraform-ec2-remote-state](./terraform-ec2-remote-state) | EC2 provisioning with S3 remote state and DynamoDB locking | Terraform, AWS | ✅ Complete|
+| [terraform-vpc-modules](./terraform-vpc-modules) | 3-tier VPC with reusable Terraform modules | Terraform, AWS VPC | ✅ Complete |
+| [eks-kubernetes-fundamentals](./eks-kubernetes-fundamentals) | EKS cluster, K8s manifests, pod troubleshooting | Kubernetes, AWS EKS | ✅ Complete |
+| [eks-helm-irsa-rbac](./eks-helm-irsa-rbac) | Custom Helm charts, IRSA, NetworkPolicy, RBAC | Helm, AWS IAM, K8s |  🔄 In progress |
+| [eks-autoscaling-karpenter](./eks-autoscaling-karpenter) | HPA, Karpenter node provisioning, PodDisruptionBudget | Karpenter, K8s | ⬜ Upcoming |
+| [eks-observability-prometheus](./eks-observability-prometheus) | Prometheus, Grafana dashboards, alerting, Fluent Bit | Prometheus, Grafana | ⬜ Upcoming |
+| [cicd-github-actions-ansible](./cicd-github-actions-ansible) | GitHub Actions pipeline, ECR push, EKS deploy, Ansible roles | GitHub Actions, Ansible | ⬜ Upcoming |
+| [platform-capstone-project](./platform-capstone-project) | Complete EKS platform: Terraform + Helm + Observability + CI/CD | All technologies | ⬜ Upcoming |
 
 ## Tech Stack
-Docker · Kubernetes · Terraform · AWS EKS · Helm ·
-Prometheus · Grafana · GitHub Actions · Ansible · Python
+Docker · Kubernetes · Terraform · AWS EKS · Helm · 
+Prometheus · Grafana · GitHub Actions · Ansible · Python · Trivy
