@@ -50,7 +50,7 @@ resource "aws_iam_role_policy_attachment" "eks_cluster_Policy" {
 
 resource "aws_eks_cluster" "eks_cluster" {
     name = "${local.name}_eks_cluster"
-    version = "1.29"
+    version = "1.31"
     role_arn = aws_iam_role.eks_master_role.arn
     vpc_config {
       subnet_ids = concat([var.public_subnet_id], var.private_subnet_ids)
