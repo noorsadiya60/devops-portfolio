@@ -122,3 +122,19 @@ resource "aws_eks_node_group" "private_nodes" {
 locals{
     name = "${var.env}"
 }
+
+resource "aws_eks_addon" "vpc_cni" {
+  cluster_name = aws_eks_cluster.eks_cluster.name
+  addon_name   = "vpc-cni"
+  resolve_conflicts_on_create = "OVERWRITE"
+  configuration_values = jsonencode({
+    env = {
+      ENABLE_PREFIX_DELEGATION = "true"
+      WARM_PREFIX_TARGET       = "1"
+    }
+  })
+  depends_on = [
+    aws_eks_node_group.private_nodes,
+    aws_eks_node_group.public_nodes,
+  ]
+}
