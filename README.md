@@ -13,8 +13,8 @@ Kubernetes, Terraform, AWS EKS, and Observability.
 | [terraform-vpc-modules](./terraform-vpc-modules) | 3-tier VPC with reusable Terraform modules | Terraform, AWS VPC | ✅ Complete |
 | [eks-kubernetes-fundamentals](./eks-kubernetes-fundamentals) | EKS cluster, K8s manifests, pod troubleshooting | Kubernetes, AWS EKS | ✅ Complete |
 | [eks-helm-irsa-rbac](./eks-helm-irsa-rbac) | Custom Helm charts, IRSA, NetworkPolicy, RBAC | Helm, AWS IAM, K8s | ✅ Complete  |
-| [eks-autoscaling-karpenter](./eks-autoscaling-karpenter) | HPA, Karpenter node provisioning, PodDisruptionBudget | Karpenter, K8s |  🔄 In progress|
-| [eks-observability-prometheus](./eks-observability-prometheus) | Prometheus, Grafana dashboards, alerting, Fluent Bit | Prometheus, Grafana | ⬜ Upcoming |
+| [eks-autoscaling-karpenter](./eks-autoscaling-karpenter) | HPA, Karpenter node provisioning, PodDisruptionBudget | Karpenter, K8s | ✅ Complete  |
+| [eks-observability-prometheus](./eks-observability-prometheus) | Prometheus, Grafana dashboards, alerting, Fluent Bit | Prometheus, Grafana | 🔄 In progress |
 | [cicd-github-actions-ansible](./cicd-github-actions-ansible) | GitHub Actions pipeline, ECR push, EKS deploy, Ansible roles | GitHub Actions, Ansible | ⬜ Upcoming |
 | [platform-capstone-project](./platform-capstone-project) | Complete EKS platform: Terraform + Helm + Observability + CI/CD | All technologies | ⬜ Upcoming |
 
